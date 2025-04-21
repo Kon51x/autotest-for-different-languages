@@ -15,4 +15,3 @@ class TestLanguages:
 
         addToBasketButton = browser.find_element(By.CSS_SELECTOR, "button.btn.btn-lg.btn-primary.btn-add-to-basket")
         assert addToBasketButton.is_displayed(), "Кнопка 'Добавить в корзину' не найдена"
-
